@@ -19,3 +19,5 @@ Piping all data from Google Analytics enchanced ecommerce collector to WDC.
 ## Custom events tracker 
 
 Setting up custom data trackers for events = track anything.
+
+https://github.com/snowplow/snowplow/wiki/Integrating-javascript-tags-with-Google-Tag-Manager#events
