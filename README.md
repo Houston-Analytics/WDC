@@ -3,7 +3,7 @@ Snowplow open source part setup scripts for WDC ( Web Data Collector ). This doc
 
 WDC Snowplow collector setup consists of 3 separate elements:
 1. Basic tracker ( wdc2.js )
-2. GA data duplicator for enchanced ecommerce
+2. Enhanced ecommerce extension
 3. Custom events tracker
 
 ## Basic tracker ( wdc2.js )
@@ -12,9 +12,9 @@ WDC uses Snowplow tracking scripts, which can be found here:
 
 https://github.com/snowplow/snowplow/wiki/Javascript-Tracker#overview 
 
-## GA data duplicator for enchanced ecommerce
+## Enhanced ecommerce extension
 
-Piping all data from Google Analytics enchanced ecommerce collector to WDC.
+Data and event grabber from Google Analytics enchanced ecommerce to WDC.
 
 ## Custom events tracker 
 
