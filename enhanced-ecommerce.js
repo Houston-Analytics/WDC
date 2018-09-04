@@ -10,8 +10,8 @@ n.src=w;g.parentNode.insertBefore(n,g)}}(window,document,"script","//s3.eu-centr
  
  // Track page views, enable link clicks, and so on here
  snowplow_2("newTracker", "cfee", "collector.houston-analytics.com", {
-	 appId: "Sportmaster",
-	 cookieName: "Sportmaster"
+	 appId: "APPID",
+	 cookieName: "APPID"
 	  });
 	  
 	 snowplow_2("enableActivityTracking", 10, 10);
