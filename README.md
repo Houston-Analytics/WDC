@@ -8,10 +8,6 @@ WDC Snowplow collector setup consists of 3 separate elements:
 
 ## Basic tracker ( wdc2.js )
 
-WDC uses Snowplow tracking scripts, which can be found here:
-
-https://github.com/snowplow/snowplow/wiki/Javascript-Tracker#overview 
-
 Set up WDC in GTM with the following steps:
 1. create new "custom HTLM" tag
 2. copy the wdc2.js content and change the following in code to suit your needs
@@ -19,6 +15,9 @@ Set up WDC in GTM with the following steps:
   - platform = "web" ( can be mobile, app, ... )
   - instructions: https://github.com/snowplow/snowplow/wiki/1-General-parameters-for-the-Javascript-tracker#initialisation
 3. define the tag to trigger on "all pages" and/or if single page app on "global.historychange"
+
+WDC uses Snowplow tracking scripts. More information of the Snowplow tracking can be found here:
+https://github.com/snowplow/snowplow/wiki/Javascript-Tracker#overview 
 
 ## Enhanced ecommerce extension
 
